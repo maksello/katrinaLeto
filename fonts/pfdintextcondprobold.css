@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'pfdintextcondprobold';
+    src: url('fonts/pfdintextcondprobold.eot');
+    src: url('fonts/pfdintextcondprobold.eot') format('embedded-opentype'),
+         url('fonts/pfdintextcondprobold.woff2') format('woff2'),
+         url('fonts/pfdintextcondprobold.woff') format('woff'),
+         url('fonts/pfdintextcondprobold.ttf') format('truetype'),
+         url('fonts/pfdintextcondprobold.svg#pfdintextcondprobold') format('svg');
+}
