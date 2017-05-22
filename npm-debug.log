@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'browser-sync' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData browser-sync
+8 silly fetchNamedPackageData browser-sync
+9 silly mapToRegistry name browser-sync
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'browser-sync',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'browser-sync',
+12 silly mapToRegistry   name: 'browser-sync',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+14 verbose request uri https://registry.npmjs.org/browser-sync
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 15:16:59
+17 verbose request id 9dc5e08b03bd49d7
+18 http request GET https://registry.npmjs.org/browser-sync
+19 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+20 info attempt registry request try #2 at 15:17:21
+21 http request GET https://registry.npmjs.org/browser-sync
+22 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+23 info attempt registry request try #3 at 15:18:33
+24 http request GET https://registry.npmjs.org/browser-sync
+25 silly fetchPackageMetaData Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+25 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+25 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+25 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+25 silly fetchPackageMetaData  error for browser-sync { Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+25 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+25 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+25 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+25 silly fetchPackageMetaData   code: 'EAI_AGAIN',
+25 silly fetchPackageMetaData   errno: 'EAI_AGAIN',
+25 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+25 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+25 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+25 silly fetchPackageMetaData   port: 443 }
+26 silly rollbackFailedOptional Starting
+27 silly rollbackFailedOptional Finishing
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+30 verbose stack     at Object.exports._errnoException (util.js:1018:11)
+30 verbose stack     at errnoException (dns.js:33:15)
+30 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+31 verbose cwd C:\Users\d1801-snigur\Desktop\LETO
+32 error Windows_NT 10.0.10586
+33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "browser-sync"
+34 error node v6.10.1
+35 error npm  v3.10.10
+36 error code EAI_AGAIN
+37 error errno EAI_AGAIN
+38 error syscall getaddrinfo
+39 error getaddrinfo EAI_AGAIN registry.npmjs.org:443
+40 error If you need help, you may report this error at:
+40 error     <https://github.com/npm/npm/issues>
+41 verbose exit [ 1, true ]
